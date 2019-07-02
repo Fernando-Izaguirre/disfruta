@@ -1,0 +1,130 @@
+.ch-item {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: default;
+	margin: 15px 15px 15px 15px;
+
+}
+
+.ch-info-wrap {
+	position: relative;
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+
+	top: 20px;
+	left: 20px;
+	background: #f9f9f9 url(../img/messi.jpg);
+
+
+}
+
+.ch-info {
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out;
+	transition: all 2s ease-in-out;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+}
+
+.ch-info>div {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-position: center center;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.ch-info .ch-info-back {
+	-webkit-transform: rotate3d(0, 1, 0, 180deg);
+	-moz-transform: rotate3d(0, 1, 0, 180deg);
+	-o-transform: rotate3d(0, 1, 0, 180deg);
+	-ms-transform: rotate3d(0, 1, 0, 180deg);
+	transform: rotate3d(0, 1, 0, 180deg);
+
+	background: rgba(155, 27, 48, 1);
+	background: -moz-linear-gradient(left, rgba(155, 27, 48, 1) 0%, rgba(45, 10, 133, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(155, 27, 48, 1)), color-stop(100%, #2d0a85));
+	background: -webkit-linear-gradient(left, rgba(155, 27, 48, 1) 0%, rgba(45, 10, 133, 1) 100%);
+	background: -o-linear-gradient(left, rgba(155, 27, 48, 1) 0%, rgba(45, 10, 133, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(155, 27, 48, 1) 0%, rgba(45, 10, 133, 1) 100%);
+	background: linear-gradient(to right, rgba(155, 27, 48, 1) 0%, rgba(45, 10, 133, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9b1b30', endColorstr='#2d0a85', GradientType=1);
+}
+
+
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	margin: 15px 15px 15px 15px;
+	padding: 40px 40px 40px 40px;
+	height: 90px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+
+}
+
+.ch-info p {
+	color: #fff;
+	padding: 10px 10px 10px 10px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid #2d0a85;
+	text-align: center;
+}
+
+.ch-info p a {
+	display: block;
+	color: #2d0a85;
+	color: rgba(255, 255, 255, 0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	padding-top: 4px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.ch-item:hover .ch-info {
+	-webkit-transform: rotate3d(0, 1, 0, -180deg);
+	-moz-transform: rotate3d(0, 1, 0, -180deg);
+	-o-transform: rotate3d(0, 1, 0, -180deg);
+	-ms-transform: rotate3d(0, 1, 0, -180deg);
+	transform: rotate3d(0, 1, 0, -180deg);
+ }

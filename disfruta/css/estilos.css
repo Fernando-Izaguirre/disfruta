@@ -1,0 +1,284 @@
+#cabecera {
+
+    background-color: #88b04b;
+    background-image: url(../img/apple.jpg);
+}
+
+.ir-arriba {
+
+    display: inline-block;
+    padding: 20px;
+    color: #88b04b;
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    font-size: 70px;
+}
+
+.container {
+    display: flex;
+}
+
+
+#pie-de-pagina {
+
+    background-color: #c64247;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.nav-item {
+
+    margin-top: 70px;
+    margin-left: 70px;
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link {
+    color: #c64247;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 190px;
+}
+
+#nombre {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    color: #c64247;
+    font-size: 1px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.texto-pie {
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.derechos-de-autor {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 380px;
+}
+
+.text-white:hover {
+
+    color: #c64247;
+}
+
+#section {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.parallax {
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+
+#section1 {
+    background-image: url('../img/fresas.jpg');
+
+}
+
+#section2 {
+    background-image: url('../img/apple2.jpg');
+}
+
+#section3 {
+    background-image: url('../img/raspberries.jpg');
+}
+
+#section4 {
+    background-image: url('../img/kiwi.jpg');
+}
+
+/* -----Nosotros-----*/
+
+.text-nosotros {
+    color: white;
+    margin-top: 110px;
+    margin-left: 790px;
+    margin-right: 90px;
+    margin-bottom: 190px;
+    font-family: 'Mali', cursive;
+    font-size: 25px;
+
+}
+
+/* -----Productos-----*/
+
+
+.card-deck {
+    margin: 70px 0 70px 0;
+
+}
+
+.btn-danger {
+    margin-left: 80px;
+    background-color: #88b04b;
+    border-color: #88b04b;
+
+}
+
+.card-text {
+    text-align: justify;
+}
+
+
+/* -----Carrito-----*/
+
+
+.entrada-carrito {
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+
+
+.tarjeta-compra {
+    margin-left: 30px;
+}
+
+.boton-resumen-eliminar {
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+.imagen-carrito {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form-control {
+    margin-left: 180px;
+}
+
+.resumen {
+    text-align: center;
+}
+
+.tarjeta-compra {
+    margin-left: 30px;
+
+}
+
+.bajada-boton-1 {
+    text-align: center;
+
+}
+
+.card-resumen {
+    margin-top: 70px;
+}
+
+.o {
+    text-align: center;
+
+}
+
+.boton-carrito-1 {
+    margin-left: 35px;
+
+}
+
+.boton-carrito-2 {
+    background-color: #c64247;
+    border-color: #c64247;
+    margin-left: 35px;
+
+}
+
+.boton-carrito-2:hover {
+    background-color: #88b04b;
+    border-color: #88b04b;
+
+}
+
+.element {
+    /*animation-delay: 2s;*/
+    animation: pulse 1s infinite;
+    margin: 0 auto;
+    display: table;
+    margin-top: 50px;
+    animation-direction: alternate;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 3;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* -----Consejos-----*/
+
+
+
+.text-consejos {
+    text-align: justify;
+}
+
+.card-columns {
+    margin: 70px 0 70px 0;
+}
+
+.card-color {
+    background-color: #c64247;
+}
+ .card-consejos {
+    animation-duration: 4s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -50%;
+ 
+    }
+  
+    to {
+      margin-left: 0%;
+
+    }
+  }
+
+  .logo {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 0%;
+ 
+    }
+  
+    to {
+      margin-left: 56%;
+
+    }
+  }
+
+  .cuadro-consejo {
+
+    margin-top: 15px;
+
+  }
+  
